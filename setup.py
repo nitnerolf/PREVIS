@@ -18,4 +18,5 @@ setup(
     ],
     package_data={'previs': ['data/eso_limits_matisse.json',
                              'data/vizier_catalog_references.json']},
+    install_requires=['pandas','astropy','astroquery', 'openpyxl', 'scipy', 'numpy','matplotlib','termcolor','uncertainties']
 )
